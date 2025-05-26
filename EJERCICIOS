@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>                        <!-- Este es el tipo de documento que vamos a trabajar, en este caso es html -->
+<html>                                 <!-- Define el inicio y fin del documento HTML -->
+<head>                                 <!--Contiene metadatos y enlaces a recursos externos (CSS, scripts, etc.) -->
+<title>Hola mundo</title>              <!--Esta etiqueta sirve para poner el titulo de nuestra pagina -->
+</head>                        
+<body>                                 <!-- Esta etiqueta es para el desarrollo de la pagina, puede contener varios elementos dentro de, ya sea titulos, imagenes, parrafos,etc. -->
+<h1>Mi primer hola mundo</h1>          <!-- Esta etiqueta pone encabezados de distintos tamaños(h1-h6) h1 es el encabezado mas grande -->
+<p>Mi primera vez usando html</p>      <!-- Esta etiqueta sirve para poner un parrafo en nuestra pagina →
+
+</body>
+</html>
+
+Colores en HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:powderblue;">Mi juego favorito</h1>
+<p style="background-color:tomato;"> Mi juego favorito es Cult of the lamp</p>
+
+</body>
+</html>
+
+Direcciones
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Escrito por Génesis<br>
+Los Mochis<br>
+MÉX
+</address>
+
+</body>
+</html>
+
+
+Borrar texto
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Mi color favorito es el <del>negro</del> verde.</p>
+
+</body>
+</html>
+
+
+Colores de fondo
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>Este es un encabezado</h1>
+<p>Este es un párrafo.</p>
+
+</body>
+</html>
+
+
+Colores en los textos
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 style="color:Tomato;">Hola mundo</h3>
+
+<p style="color:DodgerBlue;">Este texto sera azul</p>
+
+<p style="color:MediumSeaGreen;">Este texto sera color tomate</p>
+
+</body>
+</html>
+ 
+
+Comentarios
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Esto es un comentario -->
+<p>Esto es un parrafo</p>
+<!-- Los comentarios no estan dispobibles en el navegador -->
+
+</body>
+</html>
+
+
+Cursiva
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal.</p>
+
+<p><i>Texto en cursiva</i></p>
+
+</body>
+</html>
+
+
+Textos con importancia
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal.</p>
+
+<p><strong>! Texto importante!</strong></p>
+
+</body>
+</html>
+
+ 
+Encabezados
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Este es el encabezado 1</h1>
+<h2>Este es el encabezado 2</h2>
+<h3>Este es el encabezado 3</h3>
+<h4>Este es el encabezado 4</h4>
+<h5>Este es el encabezado 5</h5>
+<h6>Este es el encabezado 6</h6>
+
+</body>
+</html>
+
+
+Parrafos
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Mi primer encabezado</h1>
+<p>Mi primer parrafo.</p>
+
+</body>
+</html>
+
+
+Enlaces
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Links</h2>
+<p>los enlaces en HTML se definen con a:</p>
+
+<a href="https://www.w3schools.com">Esto es un link</a>
+
+</body>
+</html>
+
+
+
+Estilos de letra
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family:verdana;">Mi comida favorita</h1>
+<p style="font-family:courier;">Mi comida favorita es el sushi.</p>
+
+</body>
+</html>
+
+
+Imagenes 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Imagenes en HTML</h2>
+<p>las imagenes en html se definen con la etiqueta img: </p>
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+</body>
+</html>
+
+
+Ocultar comentarios
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Este es un párrafo.</p>
+
+<!-- <p>Este comentario sera oculto </p> -->
+
+<p>Este también es un párrafo.</p>
+
+</body>
+</html>
+
+
+Parrafos
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Esto es un parrafo.</p>
+<p>Esto es otro parrafo pero mas largo.</p>
+
+</body>
+</html>
+
+Tamaño de letra
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:300%;">Mi comida favorita</h1>
+<p style="font-size:160%;"> Mi comida favorita es el sushi.</p>
+
+</body>
+</html>
+
+Texto en negritas
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal</p>
+
+<p><b>Texto en negritas.</b></p>
+
+</body>
+</html>
+
+
+Texto pequeño
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal.</p>
+<p><small>Texto mas pequeño</small></p>
+
+</body>
+</html>
+
+Alineación de texto
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">Mi juego favorito</h1>
+<p style="text-align:center;">Cult of the lamp.</p>
+
+</body>
+</html>
+
+
+Citas
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>El elemento CITE HTML define el título de una obra.</p>
+<p>Los navegadores suelen mostrar los elementos de cita en cursiva.</p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>El grito,</cite>de Edvard Munch. Pintado en 1893.</p>
+
+</body>
+</html>
+
+
+
+CITAS
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Aquí hay una cita del sitio web de WWF:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+Durante 60 años, WWF ha trabajado para ayudar a las personas y a la naturaleza a prosperar. Como organización de conservación líder en el mundo, WWF trabaja en casi 100 países. En todos los niveles, colaboramos con personas de todo el mundo para desarrollar y ofrecer soluciones innovadoras que protejan a las comunidades, la vida silvestre y los lugares en los que viven.
+</blockquote>
+
+</body>
+</html>
+
